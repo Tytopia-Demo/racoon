@@ -34,3 +34,37 @@ build/
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
+
+# Ruby version managers:
+.ruby-version
+.ruby-gemset
+
+## Terraform:
+# Local .terraform directories
+**/.terraform/
+# Terraform lock files (commit these for applications, ignore for libraries)
+.terraform.lock.hcl
+# Terraform state files
+*.tfstate
+*.tfstate.*
+# Terraform plan files
+*.tfplan
+# Terraform variable files that may contain secrets
+*.tfvars
+*.tfvars.json
+# Terraform crash log
+crash.log
+crash.*.log
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+## OS / editor artifacts:
+.DS_Store
+Thumbs.db
+
+## Environment / secrets:
+.env
+.env.*
